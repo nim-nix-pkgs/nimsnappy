@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-nimsnappy-master.flake = false;
+  inputs.src-nimsnappy-master.ref   = "refs/heads/master";
   inputs.src-nimsnappy-master.owner = "dfdeshom";
-  inputs.src-nimsnappy-master.ref   = "master";
   inputs.src-nimsnappy-master.repo  = "nimsnappy.git";
   inputs.src-nimsnappy-master.type  = "github";
   

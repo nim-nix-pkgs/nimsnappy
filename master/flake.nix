@@ -10,7 +10,7 @@
   inputs.src-nimsnappy-master.flake = false;
   inputs.src-nimsnappy-master.ref   = "refs/heads/master";
   inputs.src-nimsnappy-master.owner = "dfdeshom";
-  inputs.src-nimsnappy-master.repo  = "nimsnappy.git";
+  inputs.src-nimsnappy-master.repo  = "nimsnappy";
   inputs.src-nimsnappy-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

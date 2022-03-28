@@ -11,7 +11,6 @@
   inputs.src-nimsnappy-master.ref   = "refs/heads/master";
   inputs.src-nimsnappy-master.owner = "dfdeshom";
   inputs.src-nimsnappy-master.repo  = "nimsnappy";
-  inputs.src-nimsnappy-master.dir   = "";
   inputs.src-nimsnappy-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
